@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+  <title>
+    FullCalendar
+  </title>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.1.6/sumoselect.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.1.6/jquery.sumoselect.min.js"></script>
+  <script src ="index.js"></script>
+
+
+</head>
+<body>
+    <div class="event-select">
+        <div>
+        <p style=" font-size: 20px;font-weight: bold;">Status</p></div>
+        <div><select multiple="multiple" id="selector" placeholder="Enter here.">import
+            <option value="0" disabled="disabled" selected="selected">--Please select--</option>
+            <option value="1">New</option>
+            <option value="2">Inprogress</option>
+            <option value="3">Closed</option>
+        </select></div>
+    </div>
+      </body>
+
+<div id="calendar"></div>
+
+
+</body></html>
